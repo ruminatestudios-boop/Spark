@@ -1,0 +1,740 @@
+<html lang="en" class="scroll-smooth"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spark Labs - AI Creative & Automation Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+
+    <style>
+      body { font-family: 'Inter', sans-serif; }
+      /* Custom smooth scrolling and hidden scrollbar for ultra-clean look */
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+      /* Sticky Button Scroll Animation */
+      @keyframes button-scroll {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+      }
+      .group:hover .animate-button-scroll {
+          animation: button-scroll 4s linear infinite;
+      }
+
+      /* Cursor styles for the draggable area */
+      .cursor-grab { cursor: grab; }
+      .cursor-grabbing { cursor: grabbing; }
+    </style>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <link id="all-fonts-link-font-instrument-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-instrument-serif">
+.font-instrument-serif { font-family: 'Instrument Serif', serif !important; }
+</style><link id="all-fonts-link-font-geist" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist">
+.font-geist { font-family: 'Geist', sans-serif !important; }
+</style><link id="all-fonts-link-font-roboto" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-roboto">
+.font-roboto { font-family: 'Roboto', sans-serif !important; }
+</style><link id="all-fonts-link-font-montserrat" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-montserrat">
+.font-montserrat { font-family: 'Montserrat', sans-serif !important; }
+</style><link id="all-fonts-link-font-poppins" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-poppins">
+.font-poppins { font-family: 'Poppins', sans-serif !important; }
+</style><link id="all-fonts-link-font-playfair" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&amp;display=swap"><style id="all-fonts-style-font-playfair">
+.font-playfair { font-family: 'Playfair Display', serif !important; }
+</style><link id="all-fonts-link-font-merriweather" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&amp;display=swap"><style id="all-fonts-style-font-merriweather">
+.font-merriweather { font-family: 'Merriweather', serif !important; }
+</style><link id="all-fonts-link-font-bricolage" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-bricolage">
+.font-bricolage { font-family: 'Bricolage Grotesque', sans-serif !important; }
+</style><link id="all-fonts-link-font-jakarta" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-jakarta">
+.font-jakarta { font-family: 'Plus Jakarta Sans', sans-serif !important; }
+</style><link id="all-fonts-link-font-manrope" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-manrope">
+.font-manrope { font-family: 'Manrope', sans-serif !important; }
+</style><link id="all-fonts-link-font-space-grotesk" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-space-grotesk">
+.font-space-grotesk { font-family: 'Space Grotesk', sans-serif !important; }
+</style><link id="all-fonts-link-font-work-sans" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-work-sans">
+.font-work-sans { font-family: 'Work Sans', sans-serif !important; }
+</style><link id="all-fonts-link-font-pt-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-pt-serif">
+.font-pt-serif { font-family: 'PT Serif', serif !important; }
+</style><link id="all-fonts-link-font-geist-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist-mono">
+.font-geist-mono { font-family: 'Geist Mono', monospace !important; }
+</style><link id="all-fonts-link-font-space-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-space-mono">
+.font-space-mono { font-family: 'Space Mono', monospace !important; }
+</style><link id="all-fonts-link-font-quicksand" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-quicksand">
+.font-quicksand { font-family: 'Quicksand', sans-serif !important; }
+</style><link id="all-fonts-link-font-nunito" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-nunito">
+.font-nunito { font-family: 'Nunito', sans-serif !important; }
+</style></head>
+  <body class="bg-zinc-950 text-zinc-100 antialiased selection:bg-white selection:text-black relative">
+    <!-- Navigation Overlay -->
+    <nav class="fixed top-0 left-0 w-full z-40 px-6 py-6 md:px-12 md:py-8 flex justify-between items-center mix-blend-difference text-white pointer-events-none">
+      <a href="#" class="group flex items-center gap-1 text-2xl md:text-3xl tracking-tight font-normal pointer-events-auto">
+        <span class="border-b border-white pb-0.5 group-hover:border-transparent transition-colors duration-300">
+          spark
+        </span>
+        <span class="">labs</span>
+      </a>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center gap-8 lg:gap-12 pointer-events-auto">
+        <a href="https://www.linkedin.com/in/cpritesh/" class="text-lg font-normal hover:text-zinc-300 transition-colors">
+          Linkedin
+        </a>
+        <a href="https://www.instagram.com/sparklabs.ai/" class="text-lg font-normal hover:text-zinc-300 transition-colors">
+          Instagram
+        </a>
+<a href="http://spark-labs.org/portfolio.pdf" target="_blank" class="hover:text-zinc-300 transition-colors text-lg font-normal">          View Portfolio
+        </a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative w-full h-screen overflow-hidden bg-black">
+      <video autoplay="" muted="" loop="" playsinline="" class="absolute inset-0 w-full h-full object-cover opacity-70" poster="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/16b5c7c1-f196-4707-b5d8-9ba5ecac10bc_1600w.jpg">
+        <source src="https://spark-labs.org/video/reel.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-90 absolute top-0 right-0 bottom-0 left-0"></div>
+
+      <div class="absolute bottom-0 left-0 w-full px-6 py-12 md:px-12 md:py-16 flex flex-col md:flex-row justify-between items-end">
+        <div class="max-w-2xl">
+          <h1 class="md:text-6xl lg:text-7xl leading-[1.1] text-4xl font-medium tracking-tight font-instrument-serif mb-6">Scale Your Visual Content Without <span class="text-zinc-400">Scaling Your Team</span> </h1>
+          <div class="flex items-center gap-4 text-lg md:text-xl text-zinc-300">
+            <a href="mailto:infosparklabs@gmail.com" class="group flex items-center hover:text-white transition-colors hover:underline underline-offset-4 decoration-zinc-600 hover:decoration-white">
+  Work With Us
+</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Strategies & Interactive Scrollable Cards -->
+    <section class="overflow-hidden md:pb-16 md:pt-16 bg-zinc-950 border-zinc-900/50 border-b pt-24 pb-24">
+      <!-- Top Text Content -->
+      <div class="px-6 md:px-12 mb-20 md:mb-28">
+        <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-24 gap-x-12 gap-y-12 items-end">
+          <h2 class="leading-[0.95] lg:text-[5.5rem] md:text-6xl text-5xl font-normal text-white tracking-tight font-instrument-serif">
+            Solving Visual Content Problems With Intelligent AI
+          </h2>
+          <div class="lg:pb-3 lg:pl-12">
+            <p class="md:text-2xl leading-relaxed text-xl font-light text-zinc-400 mb-10">
+              Whether you're fighting deadlines, budgets, or brand consistency,
+              we generate on-demand visuals that keep your business moving
+              forward.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Draggable Infinite Scroll Container -->
+      <!-- Added ID for JS targeting and removed CSS animation class -->
+      <div id="marquee-container" class="flex w-full overflow-hidden select-none cursor-grab active:cursor-grabbing touch-pan-y" style="mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);">
+        <!-- Track that moves -->
+        <div id="marquee-track" class="flex gap-8 min-w-max pr-4 pl-4 gap-x-8 gap-y-8 items-stretch will-change-transform">
+
+          <!-- Card 1: Ad Creatives -->
+          <div class="md:w-[600px] md:p-12 flex flex-col group overflow-hidden hover:bg-[#0f1114] hover:border-zinc-700 transition-all duration-500 shrink-0 bg-[#08090A] w-[85vw] border-zinc-800 border rounded-[2.5rem] pt-8 pr-8 pb-8 pl-8 relative shadow-xl justify-between">
+            <div class="flex md:mb-20 z-10 mb-16 relative items-start justify-between">
+              <span class="md:text-7xl group-hover:text--400 transition-colors text-white-400/60 text-6xl tracking-tighter font-instrument-serif">
+                01
+              </span>
+              <div class="max-w-[200px] text-right">
+                <p class="group-hover:text-white-100/60 transition-colors text-sm font-medium text-zinc-50/40">
+                  Platform-perfect ads that match your brand and boost
+                  performance.
+                </p>
+              </div>
+            </div>
+            <div class="z-10 relative">
+              <h3 class="md:text-6xl group-hover:translate-x-2 transition-transform duration-500 text-4xl font-normal text-white-50 tracking-tight font-instrument-serif mb-8">
+                Ad Creatives
+              </h3>
+              <div class="w-full aspect-[16/9] rounded-2xl overflow-hidden bg-black/40 relative">
+                <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/1445aeb2-ddb4-4e4d-a151-c96381893f07_1600w.jpg" class="group-hover:scale-105 transition-all duration-700 group-hover:opacity-100 opacity-60 w-full h-full object-cover bg-center" draggable="false" alt="Ad Creatives">
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Product Visuals -->
+          <div class="md:w-[600px] md:p-12 flex flex-col group overflow-hidden hover:bg-[#0f1114] hover:border-zinc-700 transition-all duration-500 shrink-0 bg-[#08090A] w-[85vw] border-zinc-800 border rounded-[2.5rem] pt-8 pr-8 pb-8 pl-8 relative shadow-xl justify-between">
+            <div class="flex md:mb-20 z-10 mb-16 relative items-start justify-between">
+              <span class="md:text-7xl group-hover:text-white transition-colors text-6xl text-zinc-500/60 tracking-tighter font-instrument-serif">
+                02
+              </span>
+              <div class="max-w-[200px] text-right">
+                <p class="group-hover:text-zinc-200 transition-colors text-sm font-medium text-zinc-500">
+                  Create unlimited product angles, backgrounds, and scenarios
+                  without reshoots.
+                </p>
+              </div>
+            </div>
+            <div class="z-10 relative">
+              <h3 class="md:text-6xl group-hover:translate-x-2 transition-transform duration-500 text-4xl font-normal text-white-50 tracking-tight font-instrument-serif mb-8">
+                Product Visuals
+              </h3>
+              <div class="w-full aspect-[16/9] rounded-2xl overflow-hidden bg-black/40 relative">
+                <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/04ff5a45-5b01-4b68-a092-f3ec2da28b5e_1600w.jpg" class="group-hover:scale-105 transition-all duration-700 group-hover:opacity-100 opacity-60 w-full h-full object-cover bg-center" draggable="false" alt="Product Visuals">
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Social Content -->
+          <div class="md:w-[600px] md:p-12 flex flex-col group overflow-hidden hover:bg-[#0f1114] hover:border-zinc-700 transition-all duration-500 shrink-0 bg-[#08090A] w-[85vw] border-zinc-800 border rounded-[2.5rem] pt-8 pr-8 pb-8 pl-8 relative shadow-xl justify-between">
+            <div class="flex md:mb-20 z-10 mb-16 relative items-start justify-between">
+              <span class="md:text-7xl group-hover:text-white-400 transition-colors text-white-400/60 text-6xl tracking-tighter font-instrument-serif">
+                03
+              </span>
+              <div class="max-w-[200px] text-right">
+                <p class="group-hover:text-white-100/60 transition-colors text-sm font-medium text-zinc-50/40">
+                  Never run out of content. Generate on-brand posts instantly,
+                  daily.
+                </p>
+              </div>
+            </div>
+            <div class="z-10 relative">
+              <h3 class="md:text-6xl group-hover:translate-x-2 transition-transform duration-500 text-4xl font-normal text-white-50 tracking-tight font-instrument-serif mb-8">
+                Social Content
+              </h3>
+              <div class="w-full aspect-[16/9] rounded-2xl overflow-hidden bg-black/40 relative">
+                <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/f365bf31-c2fb-44c2-a24a-c78fedc640ba_1600w.jpg" class="group-hover:scale-105 transition-all duration-700 w-full h-full object-cover opacity-60 group-hover:opacity-100" draggable="false" alt="Social Content">
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Real Estate -->
+          <div class="md:w-[600px] md:p-12 flex flex-col group overflow-hidden hover:bg-[#0f1114] hover:border-zinc-700 transition-all duration-500 shrink-0 bg-[#08090A] w-[85vw] border-zinc-800 border rounded-[2.5rem] pt-8 pr-8 pb-8 pl-8 relative shadow-xl justify-between">
+            <div class="flex md:mb-20 z-10 mb-16 relative items-start justify-between">
+              <span class="md:text-7xl group-hover:text-white-400 transition-colors text-white-400/60 text-6xl tracking-tighter font-instrument-serif">
+                04
+              </span>
+              <div class="max-w-[200px] text-right">
+                <p class="group-hover:text-white-100/60 transition-colors text-sm font-medium text-zinc-50/40">
+                  Helping buyers envision home with AI-staged rooms that feel
+                  real.
+                </p>
+              </div>
+            </div>
+            <div class="z-10 relative">
+              <h3 class="md:text-6xl group-hover:translate-x-2 transition-transform duration-500 text-4xl font-normal text-white-50 tracking-tight font-instrument-serif mb-8">
+                Virtual Staging
+              </h3>
+              <div class="w-full aspect-[16/9] rounded-2xl overflow-hidden bg-black/40 relative">
+                <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/2843937d-a5f3-47ca-84d3-7a8e1c37146f_1600w.jpg" class="group-hover:scale-105 transition-all duration-700 w-full h-full object-cover opacity-60 group-hover:opacity-100" draggable="false" alt="Virtual Staging">
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5: Luxury Campaigns -->
+          <div class="md:w-[600px] md:p-12 flex flex-col group overflow-hidden hover:bg-[#0f1114] hover:border-zinc-700 transition-all duration-500 shrink-0 bg-[#08090A] w-[85vw] border-zinc-800 border rounded-[2.5rem] pt-8 pr-8 pb-8 pl-8 relative shadow-xl justify-between">
+            <div class="flex md:mb-20 z-10 mb-16 relative items-start justify-between">
+              <span class="md:text-7xl group-hover:text-white-400 transition-colors text-white-400/60 text-6xl tracking-tighter font-instrument-serif">
+                05
+              </span>
+              <div class="max-w-[200px] text-right">
+                <p class="group-hover:text-white-100/60 transition-colors text-sm font-medium text-zinc-50/40">
+                  From concept to couture-level campaigns that define premium
+                  brand positioning.
+                </p>
+              </div>
+            </div>
+            <div class="z-10 relative">
+              <h3 class="md:text-6xl group-hover:translate-x-2 transition-transform duration-500 text-4xl font-normal text-white-50 tracking-tight font-instrument-serif mb-8">
+                Luxury Campaigns
+              </h3>
+              <div class="w-full aspect-[16/9] rounded-2xl overflow-hidden bg-black/40 relative">
+                <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/8b9ebff1-0f9a-4859-886f-daf3e4b628a8_1600w.jpg" class="group-hover:scale-105 transition-all duration-700 w-full h-full object-cover opacity-60 group-hover:opacity-100" draggable="false" alt="Luxury Campaigns">
+              </div>
+            </div>
+          </div>
+
+        
+    </section>
+
+    <!-- Selected Works Grid -->
+    <section class="md:px-12 md:pt-16 bg-zinc-950 border-zinc-900/50 border-b pt-16 pr-12 pb-16 pl-12" id="process">
+      <div class="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
+        <!-- Sticky Left Content -->
+        <div class="lg:col-span-5 relative">
+          <div class="sticky top-32">
+            <div class="inline-flex text-xs font-medium text-zinc-400 bg-zinc-900 border-zinc-800 border rounded-full mb-8 pt-1 pr-3 pb-1 pl-3 gap-x-2 gap-y-2 items-center">HOW WE WORK</div>
+            <h2 class="md:text-6xl leading-[1.1] text-4xl font-medium text-white tracking-tight font-instrument-serif mb-8">
+              From Idea to Launch in
+              <span class="text-zinc-500">3 Steps</span>
+            </h2>
+            <p class="leading-relaxed text-xl font-light text-zinc-400 max-w-md">No complicated process. Just tell us what you need and we handle the rest.</p>
+
+            <!-- Decorative Elements -->
+            <div class="flex gap-4 opacity-50 mt-12 gap-x-4 gap-y-4">
+              <div class="h-1 w-12 bg-white rounded-full"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Content: Vertical Stack Cards -->
+        <div class="lg:col-span-7 flex flex-col gap-6">
+          <!-- Steps (kept as original) -->
+          <div class="group relative p-8 md:p-12 rounded-[2rem] bg-zinc-900/20 border border-zinc-800 hover:border-zinc-700 hover:bg-zinc-900/40 transition-all duration-500">
+            <div class="flex flex-col gap-8">
+              <div class="w-14 h-14 rounded-2xl bg-zinc-900 border border-zinc-700/50 flex items-center justify-center text-white shadow-lg group-hover:scale-105 transition-transform duration-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layers w-[28px] h-[28px]" data-lucide="tally-1" data-icon-set="lucide" data-icon-replaced="true" style="color: rgb(255, 255, 255); width: 28px; height: 28px;"><path d="M4 4v16"></path></svg>
+              </div>
+              <div class="space-y-6">
+                <h3 class="md:text-4xl leading-tight text-3xl font-medium text-white tracking-tight">
+                  Share Your Vision
+                </h3>
+                <div class="h-px w-full bg-gradient-to-r from-zinc-800 via-zinc-800 to-transparent"></div>
+                <p class="text-lg text-zinc-400 leading-relaxed max-w-xl">
+                  Quick call or message to understand your goals, brand style,
+                  and timeline.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Step 2 -->
+          <div class="group relative p-8 md:p-12 rounded-[2rem] bg-zinc-900/20 border border-zinc-800 hover:border-zinc-700 hover:bg-zinc-900/40 transition-all duration-500">
+            <div class="flex flex-col gap-8">
+              <div class="w-14 h-14 rounded-2xl bg-zinc-900 border border-zinc-700/50 flex items-center justify-center text-white shadow-lg group-hover:scale-105 transition-transform duration-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-[28px] h-[28px]" data-lucide="tally-2" data-icon-set="lucide" data-icon-replaced="true" style="color: rgb(255, 255, 255); width: 28px; height: 28px;"><path d="M4 4v16"></path><path d="M9 4v16"></path></svg>
+              </div>
+              <div class="space-y-6">
+                <h3 class="text-3xl md:text-4xl font-medium text-white tracking-tight leading-tight">
+                  Build with AI
+                </h3>
+                <div class="h-px w-full bg-gradient-to-r from-zinc-800 via-zinc-800 to-transparent"></div>
+                <p class="text-lg text-zinc-400 leading-relaxed max-w-xl">
+                  Using the latest AI tools, I design visuals and build
+                  automations tailored to you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Step 3 -->
+          <div class="group relative p-8 md:p-12 rounded-[2rem] bg-zinc-900/20 border border-zinc-800 hover:border-zinc-700 hover:bg-zinc-900/40 transition-all duration-500">
+            <div class="flex flex-col gap-8">
+              <div class="w-14 h-14 rounded-2xl bg-zinc-900 border border-zinc-700/50 flex items-center justify-center text-white shadow-lg group-hover:scale-105 transition-transform duration-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-terminal w-[28px] h-[28px]" data-lucide="tally-3" data-icon-set="lucide" data-icon-replaced="true" style="color: rgb(255, 255, 255); width: 28px; height: 28px;"><path d="M4 4v16"></path><path d="M9 4v16"></path><path d="M14 4v16"></path></svg>
+              </div>
+              <div class="space-y-6">
+                <h3 class="text-3xl md:text-4xl font-medium text-white tracking-tight leading-tight">
+                  Launch &amp; Grow
+                </h3>
+                <div class="h-px w-full bg-gradient-to-r from-zinc-800 via-zinc-800 to-transparent"></div>
+                <p class="text-lg text-zinc-400 leading-relaxed max-w-xl">
+                  Get your assets, launch your campaign, and watch the results
+                  come in.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="text-zinc-100 bg-zinc-950 pt-24 pr-6 pb-24 pl-6 md:px-12 md:pt-16" id="benefits">
+      <div class="max-w-[1400px] mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 md:mb-24 gap-8">
+          <div class="max-w-2xl">
+            <h2 class="md:text-6xl text-4xl font-medium text-white tracking-tight font-instrument-serif mb-6">
+              Creative power,
+              <span class="text-zinc-600">unbound.</span>
+            </h2>
+            <p class="text-xl text-zinc-400 font-light leading-relaxed">
+              Save time, cut costs, and do more with less. We help you work smarter so you can focus on what matters most.
+            </p>
+          </div>
+        </div>
+
+        <!-- Bento Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 h-auto">
+          <div class="lg:col-span-5 group overflow-hidden flex flex-col md:p-10 hover:border-zinc-700 hover:bg-zinc-900 transition-all duration-500 bg-zinc-900/50 border-zinc-800/50 border rounded-[2.5rem] pt-8 pr-8 pb-8 pl-8 relative justify-between">
+            <div class="z-10 relative">
+              <div class="flex mb-6 gap-x-3 gap-y-3 items-center">
+<div class="w-3 h-3 rounded-full bg-white-500 shadow-[0_0_10px_rgba(16,185,129,0.4)]"></div>   <span class="uppercase text-xs font-medium text-white-500 tracking-widest">
+                  Intelligent Brand
+                </span>
+              </div>
+              <h3 class="md:text-4xl text-3xl font-medium text-white tracking-tight mb-4">
+                AI That Knows Your Brand
+              </h3>
+              <p class="leading-relaxed text-lg text-zinc-400 max-w-sm">
+                Feed us your brand assets once, and our AI masters your look
+                forever. Generate endless artwork that feels authentically
+                yours.
+              </p>
+            </div>
+            <div class="relative w-full aspect-[4/5] mt-10 bg-zinc-950 rounded-2xl border border-zinc-800 overflow-hidden shadow-2xl transform group-hover:scale-[1.02] group-hover:-translate-y-2 transition-transform duration-700 ease-out">
+              <div class="absolute inset-0 bg-gradient-to-b from-zinc-800/10 to-transparent pointer-events-none"></div>
+              <div class="pt-5 pr-5 pb-5 pl-5 space-y-10">
+                <div class="flex items-center justify-between opacity-50">
+                  <div class="w-12 h-1 bg-zinc-700 rounded-full"></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-zinc-500">
+                    <circle cx="12" cy="12" r="1"></circle>
+                    <circle cx="19" cy="12" r="1"></circle>
+                    <circle cx="5" cy="12" r="1"></circle>
+                  </svg>
+                </div>
+                <div class="space-y-3">
+                  <div class="w-full aspect-square rounded-xl bg-zinc-900 border border-zinc-800 overflow-hidden relative group-hover:border-zinc-700 transition-colors">
+<img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/f36259a7-cc94-4846-8290-2df52026731d_original.gif" class="group-hover:opacity-80 transition-opacity duration-700 opacity-95 w-full h-full object-cover" alt="Gen AI"><div class="absolute inset-0 z-20 overflow-hidden rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none bg-zinc-950/20 backdrop-blur-[0px]">
+    <div class="flex flex-col w-full h-full" style="animation: vertical-marquee 8s linear infinite;">
+ 
+    </div>
+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7 flex flex-col gap-6">
+            <div class="flex-1 group overflow-hidden md:p-12 flex flex-col md:flex-row md:items-center gap-8 hover:border-zinc-700 hover:bg-zinc-900 transition-all duration-500 bg-zinc-900/50 border-zinc-800/50 border rounded-[2.5rem] pt-8 pr-8 pb-8 pl-8 relative gap-x-8 gap-y-8 items-start justify-between">
+              <div class="flex-1 max-w-md z-10">
+            
+                <h3 class="md:text-4xl text-3xl font-medium text-white tracking-tight mb-4">
+                  Perfect Consistency
+                </h3>
+                <p class="leading-relaxed text-lg text-zinc-400">
+                  Need matching artwork across your brand? I ensure every piece
+                  follows your exact style guidelines.
+                </p>
+              </div>
+              <div class="relative w-40 h-40 md:w-56 md:h-56 flex-shrink-0 opacity-60 group-hover:opacity-100 transition-opacity duration-700 grayscale group-hover:grayscale-0">
+<div class="absolute inset-0 bg-gradient-to-tr from-white-500/20 to-blue-500/20 rounded-3xl blur-[50px] opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+
+                <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/ebfeb48e-4108-49c6-86a2-a1491f93b564_original.gif" class="mask-image-circle mix-blend-lighten w-full h-full object-cover rounded-3xl">
+              </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="relative group overflow-hidden rounded-[2.5rem] bg-zinc-900/50 border border-zinc-800/50 p-8 md:p-10 hover:border-zinc-700 hover:bg-zinc-900 transition-all duration-500 flex flex-col justify-between h-72 md:h-80">
+                <div class="">
+                  <h3 class="text-2xl font-medium text-white mb-2">
+                    Cost Efficiency
+                  </h3>
+                  <p class="text-zinc-500">Reduce production overhead.</p>
+                </div>
+                <div class="relative mt-4">
+                  <div class="flex items-baseline gap-1 mb-2">
+                    <span class="text-5xl md:text-6xl font-medium text-white tracking-tighter">
+                      -85
+                    </span>
+                    <span class="text-2xl text-white-500 font-medium">%</span>
+                  </div>
+                  <div class="w-full bg-zinc-800 h-1.5 rounded-full overflow-hidden">
+                    <div class="h-full bg-white-500 w-[15%] group-hover:w-[85%] transition-all duration-1000 ease-out"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="relative group overflow-hidden rounded-[2.5rem] bg-zinc-900/50 border border-zinc-800/50 p-8 md:p-10 hover:border-zinc-700 hover:bg-zinc-900 transition-all duration-500 flex flex-col justify-between h-72 md:h-80">
+                <div class="">
+                  <h3 class="text-2xl font-medium text-white mb-2">
+                    Hyper Speed
+                  </h3>
+                  <p class="text-zinc-500">Concept to final in 24 hours</p>
+                </div>
+                <div class="relative flex items-center justify-center py-6">
+                  <div class="w-full h-16 bg-zinc-950 rounded-full border border-zinc-800 flex items-center px-2 relative overflow-hidden">
+                    <div class="h-12 bg-zinc-800 rounded-full flex items-center px-4 gap-3 text-zinc-400 group-hover:translate-x-[160px] group-hover:bg-white-500 group-hover:text-white transition-all duration-700 ease-in-out w-fit z-10 shadow-lg">
+                      <span class="text-sm font-medium whitespace-nowrap group-hover:hidden">
+                        Rendering...
+                      </span>
+                      <span class="text-sm font-medium whitespace-nowrap hidden group-hover:block">
+                        Done
+                      </span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap fill-current">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Services / Capabilities -->
+    <section class="bg-zinc-900/30 pt-20 pr-6 pb-20 pl-6 md:px-12 md:pt-16">
+      <div class="grid grid-cols-1 gap-12 items-center justify-center">
+        <div class="text-center mx-auto max-w-2xl">
+          <p class="uppercase text-sm font-medium text-zinc-500 tracking-widest mb-4">
+            Contact US
+          </p>
+          <h2 class="md:text-5xl leading-tight text-3xl font-medium tracking-tight font-instrument-serif mb-6">
+            Let's discuss your next project
+          </h2>
+          <p class="text-lg text-zinc-400 leading-relaxed mx-auto">
+            Ready to bring your vision to life? Connect with us directly via
+            email to get started immediately.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+   
+    <!-- Top Content: Dynamic Info & Links -->
+    <div class="max-w-[1800px] mx-auto px-6 py-12 md:px-12 md:py-20">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-y-12 md:gap-y-0 items-start text-sm md:text-base font-medium tracking-wide uppercase text-zinc-400">
+            
+            <!-- Dynamic Time & Location -->
+            <div class="md:col-span-4 flex items-center gap-3">
+                <div class="flex items-center gap-2 px-3 py-1.5 rounded-full border border-zinc-800 bg-zinc-900/50 text-zinc-200">
+                    <span id="dynamic-time" class="tabular-nums font-mono">00:00</span>
+                    <span class="text-zinc-600">|</span>
+                    <span id="dynamic-location">Locating...</span>
+                </div>
+            </div>
+
+            <!-- Social Links (Centered) -->
+            <div class="md:col-span-4 flex flex-col md:items-center gap-4 text-zinc-300">
+                <a href="https://www.behance.net/sparklabs" class="hover:text-white hover:translate-x-1 md:hover:translate-x-0 md:hover:-translate-y-1 transition-all duration-300">Behance</a>
+                <a href="https://www.linkedin.com/in/cpritesh/" class="hover:text-white hover:translate-x-1 md:hover:translate-x-0 md:hover:-translate-y-1 transition-all duration-300">LinkedIn</a>
+                <a href="" class="hover:text-white hover:translate-x-1 md:hover:translate-x-0 md:hover:-translate-y-1 transition-all duration-300">Instagram</a>
+            </div>
+
+            <!-- Contact Link (Right) -->
+            <div class="md:col-span-4 flex md:justify-end">
+                <a href="mailto:infosparklabs@gmail.com" class="group flex items-center gap-2 text-white hover:text-white-400 transition-colors">
+                    <span>Email Us</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:translate-x-1 transition-transform"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scrolling Marquee Text -->
+    <div class="relative w-full border-t border-zinc-900 bg-zinc-950 pb-4 pt-4 md:pb-8 md:pt-8 overflow-hidden select-none">
+        <style>
+            @keyframes marquee-scroll {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(-100%); }
+            }
+            .marquee-container {
+                display: flex;
+                width: max-content;
+                animation: marquee-scroll 40s linear infinite;
+            }
+            /* Pause on hover if desired, currently removed for continuous effect */
+        </style>
+        
+        <div class="marquee-container hover:pause">
+            <!-- First Set -->
+            <div class="flex items-center whitespace-nowrap">
+                <span class="text-[16vw] md:text-[14vw] leading-[0.8] font-instrument-serif font-normal text-white px-8 md:px-16">SPARK LABS ©</span>
+                <span class="text-[16vw] md:text-[14vw] leading-[0.8] font-instrument-serif font-normal text-white px-8 md:px-16">SPARK LABS ©</span>
+            </div>
+            <!-- Duplicate Set for Seamless Loop -->
+            <div class="flex items-center whitespace-nowrap" aria-hidden="true">
+                <span class="text-[16vw] md:text-[14vw] leading-[0.8] font-instrument-serif font-normal text-white px-8 md:px-16">SPARK LABS ©</span>
+                <span class="text-[16vw] md:text-[14vw] leading-[0.8] font-instrument-serif font-normal text-white px-8 md:px-16">SPARK LABS ©</span>
+            </div>
+             <!-- Duplicate Set for Safety on huge screens -->
+            <div class="flex items-center whitespace-nowrap" aria-hidden="true">
+                <span class="text-[16vw] md:text-[14vw] leading-[0.8] font-instrument-serif font-normal text-white px-8 md:px-16">SPARK LABS ©</span>
+                <span class="text-[16vw] md:text-[14vw] leading-[0.8] font-instrument-serif font-normal text-white px-8 md:px-16">SPARK LABS ©</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function() {
+            const timeElement = document.getElementById('dynamic-time');
+            const locationElement = document.getElementById('dynamic-location');
+
+            // Update Time
+            function updateClock() {
+                const now = new Date();
+                timeElement.textContent = now.toLocaleTimeString('en-US', { 
+                    hour12: false, 
+                    hour: '2-digit', 
+                    minute: '2-digit' 
+                });
+            }
+
+            // Update Location based on Timezone
+            function updateLocation() {
+                try {
+                    const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                    if (timeZone) {
+                        // Extract the city/region part (e.g., "America/New_York" -> "New York")
+                        let locationName = timeZone.split('/').pop().replace(/_/g, ' ');
+                        
+                        // Handle generic cases
+                        if (locationName === 'UTC' || locationName === 'GMT') {
+                            locationName = 'Global';
+                        }
+                        
+                        locationElement.textContent = locationName;
+                    } else {
+                        locationElement.textContent = 'Global';
+                    }
+                } catch (e) {
+                    locationElement.textContent = 'Earth';
+                }
+            }
+
+            updateClock();
+            updateLocation();
+            setInterval(updateClock, 1000);
+        })();
+    </script>
+</section>
+
+    <script>
+      lucide.createIcons();
+
+      // Custom Logic for Draggable Infinite Loop
+      (function() {
+          const container = document.getElementById('marquee-container');
+          const track = document.getElementById('marquee-track');
+
+          // 1. Duplicate contents to create the loop buffer
+          // We clone the original set twice (original + clone1 + clone2) = 3 sets total
+          // This ensures we always have enough content to scroll left or right and reset invisibly
+          const originalCards = Array.from(track.children);
+
+          originalCards.forEach(card => {
+              const clone = card.cloneNode(true);
+              clone.setAttribute('aria-hidden', 'true');
+              track.appendChild(clone);
+          });
+
+          originalCards.forEach(card => {
+              const clone = card.cloneNode(true);
+              clone.setAttribute('aria-hidden', 'true');
+              track.appendChild(clone);
+          });
+
+          // 2. Variables for Animation & Drag
+          let position = 0;
+          const speed = 0.5; // Auto-scroll speed
+          let isDragging = false;
+          let startX = 0;
+          let currentTranslate = 0;
+          let prevTranslate = 0;
+          let animationID;
+
+          // 3. Animation Loop
+          function animate() {
+              if (!isDragging) {
+                  position += speed;
+              }
+
+              // Get the width of one single set of cards
+              // The track now contains 3 sets.
+              const trackWidth = track.scrollWidth;
+              const singleSetWidth = trackWidth / 3;
+
+              // Infinite Loop Logic:
+              // If we've scrolled past the first set, reset position to 0
+              if (position >= singleSetWidth) {
+                  position = 0;
+                  // If dragging, we need to adjust prevTranslate to avoid a jump
+                  if (isDragging) {
+                      prevTranslate += singleSetWidth;
+                      startX += singleSetWidth; // Adjust start point relative to reset
+                  }
+              }
+
+              // If dragging moves us backward past 0 (loop left)
+              if (position < 0) {
+                 position = singleSetWidth - 1; // Wrap around to end
+                 if(isDragging) {
+                     prevTranslate -= singleSetWidth;
+                     startX -= singleSetWidth;
+                 }
+              }
+
+              track.style.transform = `translateX(${-position}px)`;
+              animationID = requestAnimationFrame(animate);
+          }
+
+          // Start Animation
+          animationID = requestAnimationFrame(animate);
+
+          // 4. Touch/Mouse Events for Dragging
+
+          // Mouse Down / Touch Start
+          const startDrag = (e) => {
+              isDragging = true;
+              container.classList.add('cursor-grabbing');
+              container.classList.remove('cursor-grab');
+              startX = getPositionX(e);
+              // Store current position as the base for the drag
+              prevTranslate = position;
+
+              // Pause specific card hover effects if needed by adding a class to body
+              document.body.classList.add('is-dragging');
+          }
+
+          // Mouse Move / Touch Move
+          const moveDrag = (e) => {
+              if (!isDragging) return;
+              const currentX = getPositionX(e);
+              const diff = startX - currentX;
+              // Update position based on drag delta
+              // Note: 'position' is positive for left scroll (translateX is negative)
+              position = prevTranslate + diff;
+          }
+
+          // Mouse Up / Touch End
+          const endDrag = () => {
+              isDragging = false;
+              container.classList.add('cursor-grab');
+              container.classList.remove('cursor-grabbing');
+              document.body.classList.remove('is-dragging');
+          }
+
+          // Helper to get X position from mouse or touch
+          function getPositionX(event) {
+              return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+          }
+
+          // Event Listeners
+          container.addEventListener('mousedown', startDrag);
+          container.addEventListener('touchstart', startDrag);
+
+          container.addEventListener('mousemove', moveDrag);
+          container.addEventListener('touchmove', moveDrag);
+
+          container.addEventListener('mouseup', endDrag);
+          container.addEventListener('mouseleave', endDrag);
+          container.addEventListener('touchend', endDrag);
+      })();
+    </script>
+  
+</body></html>
